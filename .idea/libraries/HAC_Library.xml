@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="HAC Library">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/hybris/bin/platform/ext/hac/web/webroot/WEB-INF/classes" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/platform/ext/hac/web/webroot/WEB-INF/lib/codemirror-5.65.20.sap-limited-modes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/platform/ext/hac/web/webroot/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/platform/ext/hac/web/webroot/WEB-INF/lib/js-cookie-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/platform/ext/hac/web/webroot/WEB-INF/lib/sitemesh-3.0-alpha-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/hybris/bin/platform/ext/hac/doc/sources" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/platform/ext/hac/doc/sources" recursive="false" type="SOURCES" />
+  </library>
+</component>

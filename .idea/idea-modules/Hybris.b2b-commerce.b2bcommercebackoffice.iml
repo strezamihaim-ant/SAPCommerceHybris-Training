@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="b2bcommercebackoffice" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="b2bcommercebackoffice - spring" name="b2bcommercebackoffice - spring" removed="false">
+          <dependency>b2bapprovalprocess - spring==Hybris.b2b-commerce.b2bapprovalprocess</dependency>
+          <dependency>b2bcommerce - spring==Hybris.b2b-commerce.b2bcommerce</dependency>
+          <dependency>web application context==Hybris.backoffice-framework.backoffice.web</dependency>
+          <dependency>commerceservicesbackoffice - spring==Hybris.commerce-services.commerceservicesbackoffice</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/resources/b2bcommercebackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/resources/b2bcommercebackoffice-backoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="b2bcommercebackoffice - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/bin/b2bcommercebackofficeserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.b2b-commerce.b2bapprovalprocess" exported="" />
+    <orderEntry type="module" module-name="Hybris.b2b-commerce.b2bcommerce" exported="" />
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerce-services.commerceservicesbackoffice" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

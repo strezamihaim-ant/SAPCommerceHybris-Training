@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="datahubadapter" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="datahubadapter - spring" name="datahubadapter - spring" removed="false">
+          <dependency>datahubclient - spring==Hybris.data-hub-adapter.datahubclient</dependency>
+          <dependency>dataimportcommons - spring==Hybris.data-hub-adapter.dataimportcommons</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/resources/datahubadapter-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="datahubadapter - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/gensrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="datahubadapter - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/data-hub-adapter/datahubadapter/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.data-hub-adapter.datahubclient" exported="" />
+    <orderEntry type="module" module-name="Hybris.data-hub-adapter.dataimportcommons" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

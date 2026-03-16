@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="ruleenginebackoffice" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="ruleenginebackoffice - spring" name="ruleenginebackoffice - spring" removed="false">
+          <dependency>web application context==Hybris.backoffice-framework.backoffice.web</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <dependency>platformbackoffice - spring==Hybris.backoffice-framework.platformbackoffice</dependency>
+          <dependency>ruleengineservices - spring==Hybris.rule-engine.ruleengineservices</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/resources/ruleenginebackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/resources/ruleenginebackoffice-backoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="ruleenginebackoffice - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/gensrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="ruleenginebackoffice - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleenginebackoffice/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.platformbackoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.rule-engine.ruleengineservices" exported="" />
+  </component>
+</module>

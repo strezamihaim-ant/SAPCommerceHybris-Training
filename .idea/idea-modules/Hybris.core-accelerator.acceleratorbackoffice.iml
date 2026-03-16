@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="acceleratorbackoffice" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="acceleratorbackoffice - spring" name="acceleratorbackoffice - spring" removed="false">
+          <dependency>acceleratorcms - spring==Hybris.core-accelerator.acceleratorcms</dependency>
+          <dependency>backoffice - spring==Hybris.backoffice-framework.backoffice</dependency>
+          <dependency>web application context==Hybris.backoffice-framework.backoffice.web</dependency>
+          <dependency>commerceservicesbackoffice - spring==Hybris.commerce-services.commerceservicesbackoffice</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/resources/acceleratorbackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/resources/acceleratorbackoffice-backoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="acceleratorbackoffice - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/bin/acceleratorbackofficeserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/core-accelerator/acceleratorbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.core-accelerator.acceleratorcms" exported="" />
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerce-services.commerceservicesbackoffice" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

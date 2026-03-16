@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="lccbackoffice" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice" />
+        <option name="type" value="CUSTOM" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="lccbackoffice - spring" name="lccbackoffice - spring" removed="false">
+          <dependency>backoffice - spring==Hybris.backoffice-framework.backoffice</dependency>
+          <dependency>web application context==Hybris.backoffice-framework.backoffice.web</dependency>
+          <dependency>lcccore - spring==Custom.lcccore</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/resources/lccbackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/resources/lccbackoffice-backoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="lccbackoffice - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/custom/lccbackoffice/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Custom.lcccore" exported="" />
+  </component>
+</module>

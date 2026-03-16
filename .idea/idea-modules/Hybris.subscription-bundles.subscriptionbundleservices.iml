@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="subscriptionbundleservices" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="subscriptionbundleservices - spring" name="subscriptionbundleservices - spring" removed="false">
+          <dependency>configurablebundleservices - spring==Hybris.configurable-bundle.configurablebundleservices</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <dependency>subscriptionservices - spring==Hybris.subscriptions.subscriptionservices</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/resources/subscriptionbundleservices-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="subscriptionbundleservices - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="subscriptionbundleservices - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/subscription-bundles/subscriptionbundleservices/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.configurable-bundle.configurablebundleservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.subscriptions.subscriptionservices" exported="" />
+  </component>
+</module>

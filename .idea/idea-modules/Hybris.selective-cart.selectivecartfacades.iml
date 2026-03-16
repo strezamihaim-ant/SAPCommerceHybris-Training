@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="selectivecartfacades" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="selectivecartfacades - spring" name="selectivecartfacades - spring" removed="false">
+          <dependency>acceleratorfacades - spring==Hybris.core-accelerator.acceleratorfacades</dependency>
+          <dependency>commercefacades - spring==Hybris.commerce-services.commercefacades</dependency>
+          <dependency>commercewebservicescommons - spring==Hybris.commerce-services.commercewebservicescommons</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <dependency>selectivecartservices - spring==Hybris.selective-cart.selectivecartservices</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/resources/selectivecartfacades-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="selectivecartfacades - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/gensrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="selectivecartfacades - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/selective-cart/selectivecartfacades/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.core-accelerator.acceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerce-services.commercefacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerce-services.commercewebservicescommons" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.selective-cart.selectivecartservices" exported="" />
+  </component>
+</module>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="promotions" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="promotions - spring" name="promotions - spring" removed="false">
+          <dependency>platform - spring==Platform.platform</dependency>
+          <dependency>voucher - spring==Hybris.base-commerce.voucher</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/resources/promotions-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="promotions - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/bin/promotionsserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="promotions - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/base-commerce/promotions/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.base-commerce.voucher" exported="" />
+  </component>
+</module>

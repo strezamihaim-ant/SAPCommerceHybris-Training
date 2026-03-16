@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="lcccore.web" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/custom/lcccore/web" />
+        <option name="type" value="CUSTOM" />
+        <option name="subModuleType" value="WEB" />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/webroot" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/resources" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/src" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/groovysrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/scalasrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/gensrc" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="web application context" name="lcccore.web - spring" removed="false">
+          <dependency>lcccore - spring==Custom.lcccore</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/webroot/WEB-INF/config/lcccore-web-app-config.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/webroot/WEB-INF/config/lcccore-spring-security-config.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/acceleratoraddon/web" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="lcccore.web - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/custom/lcccore/web/webroot/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Custom.lcccore" exported="" />
+  </component>
+</module>

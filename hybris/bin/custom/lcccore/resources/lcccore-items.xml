@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved.
+-->
+<!--
+	ATTENTION: This is just an example file. You have to edit it according to your needs.
+-->
+
+<items 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:noNamespaceSchemaLocation="items.xsd">
+
+	<itemtypes>
+		<itemtype code="Band" autocreate="true" generate="true"
+				  jaloclass="com.lcc.core.jalo.Band"
+				  extends="GenericItem">
+			<deployment table="Bands" typecode="10101"/>
+			<attributes>
+				<attribute qualifier="code" type="java.lang.String">
+					<persistence type="property"/>
+					<modifiers optional="false" unique="true" initial="true"/>
+				</attribute>
+				<attribute qualifier="name" type="java.lang.String">
+					<persistence type="property"/>
+					<modifiers optional="false"/>
+				</attribute>
+				<attribute qualifier="history" type="localized:java.lang.String">
+					<persistence type="property"/>
+				</attribute>
+				<attribute qualifier="albumSales" type="java.lang.Long">
+					<persistence type="property"/>
+				</attribute>
+			</attributes>
+		</itemtype>
+
+		<itemtype code="Product"
+				  autocreate="false"
+				  generate="false">
+			<attributes>
+				<attribute qualifier="hashtag" type="localized:java.lang.String">
+					<persistence type="property"/>
+					<modifiers optional="true" read="true" write="true" search="true"/>
+					<description>Hashtag of the concert tour for social media</description>
+				</attribute>
+			</attributes>
+		</itemtype>
+	</itemtypes>
+
+
+</items>

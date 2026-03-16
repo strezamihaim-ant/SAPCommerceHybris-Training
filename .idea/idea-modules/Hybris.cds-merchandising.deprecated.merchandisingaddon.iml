@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="merchandisingaddon" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+        <option name="addon" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="merchandisingaddon - spring" name="merchandisingaddon - spring" removed="false">
+          <dependency>acceleratorstorefrontcommons - spring==Hybris.core-accelerator.deprecated.acceleratorstorefrontcommons</dependency>
+          <dependency>addonsupport - spring==Hybris.core-accelerator.deprecated.addonsupport</dependency>
+          <dependency>apiregistryservices - spring==Hybris.api-registry.apiregistryservices</dependency>
+          <dependency>merchandisingservices - spring==Hybris.cds-merchandising.merchandisingservices</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/resources/merchandisingaddon-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="merchandisingaddon - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/gensrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="merchandisingaddon - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.core-accelerator.deprecated.acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="Hybris.core-accelerator.deprecated.addonsupport" exported="" />
+    <orderEntry type="module" module-name="Hybris.api-registry.apiregistryservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.cds-merchandising.merchandisingservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

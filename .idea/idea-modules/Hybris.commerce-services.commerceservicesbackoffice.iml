@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="commerceservicesbackoffice" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="commerceservicesbackoffice - spring" name="commerceservicesbackoffice - spring" removed="false">
+          <dependency>web application context==Hybris.backoffice-framework.backoffice.web</dependency>
+          <dependency>basecommercebackoffice - spring==Hybris.base-commerce.basecommercebackoffice</dependency>
+          <dependency>commerceservices - spring==Hybris.commerce-services.commerceservices</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <dependency>promotionsbackoffice - spring==Hybris.base-commerce.promotionsbackoffice</dependency>
+          <dependency>searchbackoffice - spring==Hybris.search-services.searchbackoffice</dependency>
+          <dependency>solrfacetsearchbackoffice - spring==Hybris.search-and-navigation.solrfacetsearchbackoffice</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/commerceservicesbackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/commerceservicesbackoffice-backoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="commerceservicesbackoffice - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/bin/commerceservicesbackofficeserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/commerce-services/commerceservicesbackoffice/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.base-commerce.basecommercebackoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerce-services.commerceservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.base-commerce.promotionsbackoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.search-services.searchbackoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.search-and-navigation.solrfacetsearchbackoffice" exported="" />
+  </component>
+</module>

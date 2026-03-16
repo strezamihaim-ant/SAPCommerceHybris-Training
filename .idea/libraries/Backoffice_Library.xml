@@ -1,0 +1,130 @@
+<component name="libraryTable">
+  <library name="Backoffice Library">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/classes" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/atlantic-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-core-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/ckez-4.25.0.1-lts.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-demo-widgets-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-module-aggregator-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-standard-editors-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitadmin-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitcore-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitframework-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpittesting-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitwidgets-2211.FP9-RC24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/gmapsz-3.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/gson-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/webfragmentCore_backofficefilterchain.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/webfragmentCore_backofficeMediaFilterChain.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/webfragmentCore_backofficeMobileFilter.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/webfragmentCore_characterEncodingFilter.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/webfragmentCore_requestContextFilter.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/webfragmentCore_springSecurityFilterChain.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/webfragmentCore_XSSFilter.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/za11y-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zcommon-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zel-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zhtml-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zk-9.6.5-sap-patch1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zkbind-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zkcharts-10.2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zkex-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zkmax-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zkplus-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zkspring-core-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zul-9.6.5-sap-patch1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zuti-9.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/zweb-9.6.5.jar!/" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/adaptive-search/adaptivesearchbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/api-registry/apiregistrybackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-applications/mediaconversionbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-applications/pcmbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/platformbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/ybackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/base-accelerator/yacceleratorbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/base-commerce/basecommercebackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/base-commerce/promotionsbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/base-commerce/voucherbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/cds-merchandising/merchandisingservicesbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/configurable-bundle/configurablebundlebackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/configurator-complex-products/sapproductconfigrulesbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/consignment-tracking/consignmenttrackingbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/coupon/couponbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/customer-coupon/customercouponbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/customer-service/customersupportbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/integrationbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/integrationbackofficetest/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/outboundsyncbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/webhookbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/order-management/warehousingbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/personalization/personalizationcmsbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/personalization/personalizationintegrationbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/personalization/personalizationservicesbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/personalization-promotion/personalizationpromotionsbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/personalization-search/personalizationsearchbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/promotion-engine/promotionenginebackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/rule-engine/rulebuilderbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/rule-engine/ruleenginebackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/sap-btp-extensions-integration/kymaintegrationbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/search-and-navigation/backofficesolrsearch/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/search-services/backofficesearchservices/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/search-services/searchbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/subscriptions/subscriptionbackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionenginebackoffice/resources/backoffice" />
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/yforms/xyformsbackoffice/resources/backoffice" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/doc/sources" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/adaptive-search/adaptivesearchbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/api-registry/apiregistrybackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-applications/mediaconversionbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-applications/pcmbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/platformbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/ybackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/base-accelerator/yacceleratorbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/base-commerce/basecommercebackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/base-commerce/promotionsbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/base-commerce/voucherbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/cds-merchandising/merchandisingservicesbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/configurable-bundle/configurablebundlebackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/configurator-complex-products/sapproductconfigrulesbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/consignment-tracking/consignmenttrackingbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/coupon/couponbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/customer-coupon/customercouponbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/customer-service/customersupportbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/integrationbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/integrationbackofficetest/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/outboundsyncbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/integration-apis/webhookbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/order-management/warehousingbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/personalization-promotion/personalizationpromotionsbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/personalization-search/personalizationsearchbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/personalization/personalizationcmsbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/personalization/personalizationintegrationbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/personalization/personalizationservicesbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/promotion-engine/promotionenginebackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/rule-engine/rulebuilderbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/rule-engine/ruleenginebackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/sap-btp-extensions-integration/kymaintegrationbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/search-and-navigation/backofficesolrsearch/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/search-services/backofficesearchservices/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/search-services/searchbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/subscriptions/subscriptionbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/timed-access-promotion-engine/timedaccesspromotionenginebackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/yforms/xyformsbackoffice/resources/backoffice" recursive="true" />
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/doc/sources" recursive="false" type="SOURCES" />
+  </library>
+</component>

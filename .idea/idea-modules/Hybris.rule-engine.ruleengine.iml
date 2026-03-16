@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="ruleengine" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="ruleengine - spring" name="ruleengine - spring" removed="false">
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/resources/ruleengine-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="ruleengine - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/bin/ruleengineserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/mvel2-2.5.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/antlr-runtime-3.5.3-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/kie-api-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-io-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-mvel-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-util-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/kie-internal-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/kie-util-xml-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-drl-ast-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-commands-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-base-8.44.0-SAP-PATCH-1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-core-8.44.0-SAP-PATCH-1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-drl-parser-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-kiesession-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-xml-support-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/kie-memory-compiler-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-compiler-8.44.0-SAP-PATCH-1-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-wiring-dynamic-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/kie-util-maven-support-8.44.0.Final-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/drools-wiring-api-8.44.0-SAP-PATCH-1-sources.jar!/" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="ruleengine - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/rule-engine/ruleengine/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

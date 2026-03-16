@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="profileservices" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="profileservices - spring" name="profileservices - spring" removed="false">
+          <dependency>apiregistrybackoffice - spring==Hybris.api-registry.apiregistrybackoffice</dependency>
+          <dependency>cms2 - spring==Hybris.web-content-management-system.cms2</dependency>
+          <dependency>commercefacades - spring==Hybris.commerce-services.commercefacades</dependency>
+          <dependency>commerceservices - spring==Hybris.commerce-services.commerceservices</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/resources/profileservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/resources/profileservices-spring-search.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="profileservices - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="profileservices - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/cds-integration/profileservices/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.api-registry.apiregistrybackoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.web-content-management-system.cms2" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerce-services.commercefacades" exported="" />
+    <orderEntry type="module" module-name="Hybris.commerce-services.commerceservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

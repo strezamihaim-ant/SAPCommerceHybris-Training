@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="solrfacetsearchbackoffice" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="solrfacetsearchbackoffice - spring" name="solrfacetsearchbackoffice - spring" removed="false">
+          <dependency>web application context==Hybris.backoffice-framework.backoffice.web</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <dependency>platformbackoffice - spring==Hybris.backoffice-framework.platformbackoffice</dependency>
+          <dependency>solrfacetsearch - spring==Hybris.search-and-navigation.solrfacetsearch</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/resources/solrfacetsearchbackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/resources/solrfacetsearchbackoffice-backoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="solrfacetsearchbackoffice - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/bin/solrfacetsearchbackofficeserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.platformbackoffice" exported="" />
+    <orderEntry type="module" module-name="Hybris.search-and-navigation.solrfacetsearch" exported="" />
+  </component>
+</module>

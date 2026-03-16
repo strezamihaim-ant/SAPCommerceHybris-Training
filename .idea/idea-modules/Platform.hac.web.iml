@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="hac.web" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web" />
+        <option name="type" value="EXT" />
+        <option name="subModuleType" value="WEB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="web application context" name="hac.web - spring" removed="false">
+          <dependency>hac - spring==Platform.hac</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/config/web-app-config.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/config/spring-security-config.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/config/spring-mvc-config.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="hac.web - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/lib/codemirror-5.65.20.sap-limited-modes.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/lib/js-cookie-2.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/lib/sitemesh-3.0-alpha-2.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/doc/sources" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/doc/sources" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="hac.web - library (test)">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/testclasses" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/platform/ext/hac/web/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.hac" exported="" />
+  </component>
+</module>

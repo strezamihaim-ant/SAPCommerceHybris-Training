@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="b2bacceleratorservices" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="b2bacceleratorservices - spring" name="b2bacceleratorservices - spring" removed="false">
+          <dependency>acceleratorcms - spring==Hybris.core-accelerator.acceleratorcms</dependency>
+          <dependency>b2bapprovalprocess - spring==Hybris.b2b-commerce.b2bapprovalprocess</dependency>
+          <dependency>cms2 - spring==Hybris.web-content-management-system.cms2</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/resources/b2bacceleratorservices-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="b2bacceleratorservices - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/gensrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="b2bacceleratorservices - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/b2b-accelerator/b2bacceleratorservices/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.core-accelerator.acceleratorcms" exported="" />
+    <orderEntry type="module" module-name="Hybris.b2b-commerce.b2bapprovalprocess" exported="" />
+    <orderEntry type="module" module-name="Hybris.web-content-management-system.cms2" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

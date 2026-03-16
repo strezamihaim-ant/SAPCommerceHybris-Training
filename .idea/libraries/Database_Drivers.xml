@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Database Drivers">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/hybris/bin/platform/lib/dbdriver" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/hsqldb-2.7.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/ngdbc-2.20.17-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/mssql-jdbc-12.10.0.jre11-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/hybris/bin/platform/lib/dbdriver" recursive="false" />
+  </library>
+</component>

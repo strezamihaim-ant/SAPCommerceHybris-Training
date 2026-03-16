@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import "./support/lccbackofficewidget-variables.scss";
+
+.yw-labelstyle
+{
+	color: $lccbackoffice-label-text-color;
+}
+
+.lccbackoffice-container {
+	background: $lccbackoffice-container-background;
+	font-family: $lccbackoffice-container-font-family;
+	font-size: $lccbackoffice-container-font-size;
+}

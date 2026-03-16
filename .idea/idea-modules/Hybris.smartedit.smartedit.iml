@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="smartedit" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="smartedit - spring" name="smartedit - spring" removed="false">
+          <dependency>platform - spring==Platform.platform</dependency>
+          <dependency>smartedittools - spring==Hybris.smartedit.smartedittools</dependency>
+          <dependency>smarteditwebservices - spring==Hybris.smartedit.smarteditwebservices</dependency>
+          <dependency>springintegrationlibs - spring==Hybris.platform.springintegrationlibs</dependency>
+          <dependency>webservicescommons - spring==Hybris.web-services-commons.webservicescommons</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/resources/smartedit-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/apps" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="smartedit - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/gensrc" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="smartedit - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/smartedit/smartedit/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+    <orderEntry type="module" module-name="Hybris.smartedit.smartedittools" exported="" />
+    <orderEntry type="module" module-name="Hybris.smartedit.smarteditwebservices" exported="" />
+    <orderEntry type="module" module-name="Hybris.platform.springintegrationlibs" exported="" />
+    <orderEntry type="module" module-name="Hybris.web-services-commons.webservicescommons" exported="" />
+  </component>
+</module>

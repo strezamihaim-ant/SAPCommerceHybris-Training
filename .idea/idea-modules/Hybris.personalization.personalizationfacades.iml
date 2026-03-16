@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="personalizationfacades" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="personalizationfacades - spring" name="personalizationfacades - spring" removed="false">
+          <dependency>personalizationservices - spring==Hybris.personalization.personalizationservices</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/resources/personalizationfacades-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/resources/personalizationfacades-converters-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="personalizationfacades - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/bin/personalizationfacadesserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="personalizationfacades - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization/personalizationfacades/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.personalization.personalizationservices" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

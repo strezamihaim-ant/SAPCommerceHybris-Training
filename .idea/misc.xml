@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="javaeeApplication" />
+    <type id="Spring" />
+    <type id="web" />
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.hybris.com/cockpit/config/hybris" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitcore-2211.FP9-RC24.jar!/schemas/config/hybris/cockpit-configuration-hybris.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/compareview" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/compare-view.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/dragAndDrop" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/drag-and-drop.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/dynamicForms" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/dynamic-form.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/editorArea" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/item-editor.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/listView" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/listview.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/quick-list" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/quick-list.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/summaryview" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/summary-view.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/treeCollection" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/tree-collection.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/component/valuechooser" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/value-chooser.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/advancedsearch" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/advanced-search.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/collectionbrowser" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/collection-browser.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/dashboard" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitframework-2211.FP9-RC24.jar!/schemas/config/cockpitng/dashboard.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/deeplink" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/deep-link.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/explorertree" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/explorer-tree.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/extendedsplitlayout" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/extended-split-layout.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/fulltextsearch" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/fulltext-search.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/gridView" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/grid-view.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/links" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/links.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/notifications" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/notification-area.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/perspectiveChooser" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/perspective-chooser.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/refineBy" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/refine-by.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/simplelist" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/simple-list.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/simplesearch" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/simple-search.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/viewSwitcher" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-2211.FP9-RC24.jar!/schemas/config/cockpitng/view-switcher.xsd" />
+    <resource url="http://www.hybris.com/cockpitng/config/wizard-config" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-data-integration-2211.FP9-RC24.jar!/schemas/config/cockpitng/wizard-config.xsd" />
+    <resource url="http://www.hybris.com/schema/cockpitng/action-definition.xsd" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitcore-2211.FP9-RC24.jar!/schemas/action-definition.xsd" />
+    <resource url="http://www.hybris.com/schema/cockpitng/editor-definition.xsd" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitcore-2211.FP9-RC24.jar!/schemas/editor-definition.xsd" />
+    <resource url="http://www.hybris.com/schema/cockpitng/widget-definition.xsd" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitcore-2211.FP9-RC24.jar!/schemas/widget-definition.xsd" />
+    <resource url="http://www.hybris.com/schema/cockpitng/widgets.xsd" location="$PROJECT_DIR$/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitcore-2211.FP9-RC24.jar!/schemas/widgets.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="sap-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

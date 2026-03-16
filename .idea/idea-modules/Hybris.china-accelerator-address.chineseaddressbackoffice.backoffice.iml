@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="chineseaddressbackoffice.backoffice" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice" />
+        <option name="type" value="OOTB" />
+        <option name="subModuleType" value="BACKOFFICE" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="chineseaddressbackoffice.backoffice - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="chineseaddressbackoffice.backoffice - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/china-accelerator-address/chineseaddressbackoffice/backoffice/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.china-accelerator-address.chineseaddressbackoffice" exported="" />
+  </component>
+</module>

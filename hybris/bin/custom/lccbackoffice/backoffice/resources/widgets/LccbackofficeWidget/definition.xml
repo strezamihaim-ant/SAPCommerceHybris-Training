@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+ Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved
+-->
+<widget-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/widget-definition.xsd"
+	id="com.lcc.backoffice.widgets.lccbackofficewidget">
+	<name>lccbackoffice Sample Widget</name>
+	<description>lccbackoffice Sample Widget</description>
+	<defaultTitle>lccbackoffice Sample Widget</defaultTitle>
+	<author>Extgen</author>
+	<version>1.0</version>
+	<view src="lccbackofficewidget.zul" />
+	<keywords>
+		<keyword>lccbackoffice</keyword>
+	</keywords>
+	<controller class="com.lcc.backoffice.widgets.LccbackofficeController" />
+</widget-definition>

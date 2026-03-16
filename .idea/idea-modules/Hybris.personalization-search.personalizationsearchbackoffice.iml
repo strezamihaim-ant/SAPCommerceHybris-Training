@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="personalizationsearchbackoffice" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="personalizationsearchbackoffice - spring" name="personalizationsearchbackoffice - spring" removed="false">
+          <dependency>web application context==Hybris.backoffice-framework.backoffice.web</dependency>
+          <dependency>personalizationsearch - spring==Hybris.personalization-search.personalizationsearch</dependency>
+          <dependency>personalizationservicesbackoffice - spring==Hybris.personalization.personalizationservicesbackoffice</dependency>
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/resources/personalizationsearchbackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/resources/personalizationsearchbackoffice-backoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="personalizationsearchbackoffice - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/bin/personalizationsearchbackofficeserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="personalizationsearchbackoffice - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/personalization-search/personalizationsearchbackoffice/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.backoffice-framework.backoffice.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalization-search.personalizationsearch" exported="" />
+    <orderEntry type="module" module-name="Hybris.personalization.personalizationservicesbackoffice" exported="" />
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="solrfacetsearch" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="solrfacetsearch - spring" name="solrfacetsearch - spring" removed="false">
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/project.properties</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/resources/global-solrfacetsearch-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/resources/solrfacetsearch-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/resources/solrfacetsearch-converters.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="solrfacetsearch - library">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/bin/solrfacetsearchserver.jar!/" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/solr-api-9.8.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/zookeeper-3.9.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/solr-solrj-9.8.0-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/zookeeper-jute-3.9.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/solr-solrj-zookeeper-9.8.0-sources.jar!/" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="solrfacetsearch - library (test)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/search-and-navigation/solrfacetsearch/testsrc" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

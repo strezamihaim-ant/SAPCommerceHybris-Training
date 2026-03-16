@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="springintegrationlibs" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs" />
+        <option name="type" value="OOTB" />
+        <option name="readonly" value="true" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="springintegrationlibs - spring" name="springintegrationlibs - spring" removed="false">
+          <dependency>platform - spring==Platform.platform</dependency>
+          <file>file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="springintegrationlibs - library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/lib" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-ws-core-3.1.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-ip-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-ftp-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-jmx-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-rmi-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-xml-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-feed-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-file-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-http-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-jdbc-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-mail-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-sftp-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-test-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-xmpp-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-event-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-stream-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-security-5.5.20-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-integration-scripting-5.5.20-sources.jar!/" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../hybris/bin/modules/platform/springintegrationlibs/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Platform.platform" exported="" />
+  </component>
+</module>

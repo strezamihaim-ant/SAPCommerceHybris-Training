@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="name" value="ordermanagementaddon.acceleratoraddon.web" />
+        <option name="path" value="$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web" />
+        <option name="type" value="OOTB" />
+        <option name="subModuleType" value="ADDON" />
+        <option name="readonly" value="true" />
+        <option name="installedIntoExtensions">
+          <set>
+            <option value="yb2bacceleratorstorefront" />
+            <option value="yacceleratorstorefront" />
+          </set>
+        </option>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="ordermanagementaddon.acceleratoraddon.web - spring" name="ordermanagementaddon.acceleratoraddon.web - spring" removed="false">
+          <dependency>ordermanagementaddon - spring==Hybris.order-management.deprecated.ordermanagementaddon</dependency>
+          <dependency>web application context==Custom.yb2bacceleratorstorefront.web</dependency>
+          <dependency>web application context==Hybris.base-accelerator.deprecated.yacceleratorstorefront.web</dependency>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web">
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/doc/decompiledsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/resources/META-INF/services" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="ordermanagementaddon.acceleratoraddon.web - library">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/order-management/deprecated/ordermanagementaddon/acceleratoraddon/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ordermanagementaddon.acceleratoraddon.web - addon library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/yb2bacceleratorstorefront/resources" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/base-accelerator/deprecated/yacceleratorstorefront/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ordermanagementaddon.acceleratoraddon.web - addon library (test)">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../hybris/bin/custom/yb2bacceleratorstorefront/resources" />
+          <root url="file://$MODULE_DIR$/../../hybris/bin/modules/base-accelerator/deprecated/yacceleratorstorefront/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.order-management.deprecated.ordermanagementaddon" exported="" />
+    <orderEntry type="module" module-name="Custom.yb2bacceleratorstorefront.web" exported="" />
+    <orderEntry type="module" module-name="Hybris.base-accelerator.deprecated.yacceleratorstorefront.web" exported="" />
+  </component>
+</module>
