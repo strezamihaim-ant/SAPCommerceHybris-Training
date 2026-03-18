@@ -18,6 +18,29 @@
 		<enumtype code="MusicType" autocreate="true" generate="true" dynamic="true"/>
 	</enumtypes>
 
+	<relations>
+		<!-- Many-to-many relationship between Band and MusicType -->
+		<relation code="Band2MusicTypeRelation" generate="true" autocreate="true" localized="false">
+			<deployment table="Band2MusicTypeRel" typecode="10106"/>
+			<sourceElement type="Band" qualifier="bands" cardinality="many">
+				<modifiers read="true" write="true" search="true" optional="true"/>
+			</sourceElement>
+			<targetElement type="MusicType" qualifier="musicTypes" cardinality="many">
+				<modifiers read="true" write="true" search="true" optional="true"/>
+			</targetElement>
+		</relation>
+
+		<!-- One-to-many relationship between Band and Product -->
+		<relation code="Band2ProductRelation" generate="true" autocreate="true" localized="false">
+			<sourceElement type="Band" qualifier="band" cardinality="one">
+				<modifiers read="true" write="true" search="true" optional="true"/>
+			</sourceElement>
+			<targetElement type="Product" qualifier="products" cardinality="many">
+				<modifiers read="true" write="true" search="true" optional="true"/>
+			</targetElement>
+		</relation>
+	</relations>
+
 	<itemtypes>
 		<itemtype code="Concert" autocreate="true" generate="true"
 				  extends="VariantProduct">
