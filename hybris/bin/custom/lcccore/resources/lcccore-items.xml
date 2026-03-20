@@ -11,8 +11,8 @@
 
 	<enumtypes>
 		<enumtype code="ConcertType" autocreate="true" generate="true">
-			<value code="indoor"/>
-			<value code="openair"/>
+			<value code="INDOOR"/>
+			<value code="OPENAIR"/>
 		</enumtype>
 
 		<enumtype code="MusicType" autocreate="true" generate="true" dynamic="true"/>
