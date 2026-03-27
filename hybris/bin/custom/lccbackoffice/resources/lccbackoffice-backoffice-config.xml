@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--
- Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved
--->
-<config xmlns="http://www.hybris.com/cockpit/config">
 
-	<!-- lccbackoffice UI configuration should be provided here -->
+<config>
+	<context component="explorer-tree" merge-by="module">
+		<explorer-tree:explorer-tree xmlns:explorer-tree="http://www.hybris.com/cockpitng/config/explorertree">
+			<explorer-tree:navigation-node id="Music">
+				<explorer-tree:type-node id="Band" code="Band"/>
+			</explorer-tree:navigation-node>
 
-	<!--<context component="component-code" module="lccbackoffice">-->
-		<!--Please check documentation for code snippets for specific components-->
-	<!--</context>-->
+			<explorer-tree:navigation-node id="Concert_Tours">
+				<explorer-tree:type-node id="Concert" code="Concert"/>
+			</explorer-tree:navigation-node>
 
+			<explorer-tree:navigation-node id="Test">
+				<explorer-tree:type-node id="Product" code="Product"/>
+			</explorer-tree:navigation-node>
+		</explorer-tree:explorer-tree>
+	</context>
 </config>

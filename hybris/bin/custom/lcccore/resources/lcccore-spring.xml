@@ -89,5 +89,8 @@
         <property name="interceptor" ref="concertDateValidateInterceptor"/>
         <property name="typeCode" value="Concert"/>
     </bean>
+
+    <bean id="concertDaysUntilAttributeHandler"
+          class="com.lcc.core.dynattrshandler.ConcertDaysUntilAttributeHandler"/>
 			
 </beans>

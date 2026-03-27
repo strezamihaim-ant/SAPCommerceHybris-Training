@@ -55,6 +55,11 @@
 				<attribute qualifier="concertType" type="ConcertType">
 					<persistence type="property"/>
 				</attribute>
+				<attribute qualifier="daysLeft" type="java.lang.Long">
+					<persistence type="dynamic" attributeHandler="concertDaysUntilAttributeHandler"/>
+					<modifiers read="true" write="false"/>
+					<description>Number of days left until the concert date</description>
+				</attribute>
 			</attributes>
 		</itemtype>
 
