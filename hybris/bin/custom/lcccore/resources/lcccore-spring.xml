@@ -92,5 +92,13 @@
 
     <bean id="concertDaysUntilAttributeHandler"
           class="com.lcc.core.dynattrshandler.ConcertDaysUntilAttributeHandler"/>
+
+    <bean id="concertDao" class="com.lcc.core.dao.impl.DefaultConcertDao">
+        <property name="flexibleSearchService" ref="flexibleSearchService"/>
+    </bean>
+
+    <bean id="concertService" class="com.lcc.core.service.impl.DefaultConcertService">
+        <property name="concertDao" ref="concertDao"/>
+    </bean>
 			
 </beans>
