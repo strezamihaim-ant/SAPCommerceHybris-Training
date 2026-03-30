@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface ConcertService {
 
-    List<ConcertModel> findConcertsByCatalogVersion(CatalogVersionModel catalogVersion);
+    List<ConcertModel> getConcertsByCatalogVersion(CatalogVersionModel catalogVersion);
 
-    ConcertModel findConcertByCodeAndCatalogVersion(String code, CatalogVersionModel catalogVersion);
+    ConcertModel getConcertByCodeAndCatalogVersion(String code, CatalogVersionModel catalogVersion);
 }

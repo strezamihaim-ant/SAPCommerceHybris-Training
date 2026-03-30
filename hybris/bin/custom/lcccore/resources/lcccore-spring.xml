@@ -100,5 +100,11 @@
     <bean id="concertService" class="com.lcc.core.service.impl.DefaultConcertService">
         <property name="concertDao" ref="concertDao"/>
     </bean>
+
+    <bean id="concertUpcomingNotificationJob" class="com.lcc.core.jobs.ConcertUpcomingNotificationJob" parent="abstractJobPerformable">
+        <property name="concertService" ref="concertService"/>
+        <property name="catalogVersionService" ref="catalogVersionService"/>
+        <property name="i18NService" ref="i18NService"/>
+    </bean>
 			
 </beans>

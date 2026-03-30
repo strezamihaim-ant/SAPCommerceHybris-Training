@@ -13,7 +13,7 @@ public class DefaultConcertService implements ConcertService {
     private ConcertDao concertDao;
 
     @Override
-    public List<ConcertModel> findConcertsByCatalogVersion(final CatalogVersionModel catalogVersion) {
+    public List<ConcertModel> getConcertsByCatalogVersion(final CatalogVersionModel catalogVersion) {
         final List<ConcertModel> concerts = concertDao.findConcertsByCatalogVersion(catalogVersion);
 
         if (concerts == null || concerts.isEmpty())
@@ -25,7 +25,7 @@ public class DefaultConcertService implements ConcertService {
     }
 
     @Override
-    public ConcertModel findConcertByCodeAndCatalogVersion(final String code, final CatalogVersionModel catalogVersion) {
+    public ConcertModel getConcertByCodeAndCatalogVersion(final String code, final CatalogVersionModel catalogVersion) {
         return concertDao.findConcertByCodeAndCatalogVersion(code, catalogVersion);
     }
 
