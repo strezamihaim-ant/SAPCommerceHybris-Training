@@ -1,8 +1,9 @@
 $catalogVersion=catalogversion(catalog(id[default='electronicsProductCatalog']),version[default='Staged']);
 
-INSERT_UPDATE Product;code[unique=true];$catalogVersion;name;variantType(code)
+INSERT_UPDATE Product;code[unique=true];$catalogVersion[unique=true];name[lang=en];variantType(code)
                      ;99999901;;Test Base Product Tour One;Concert
 
-INSERT_UPDATE Concert;code[unique=true];$catalogVersion;name;baseProduct(code,$catalogVersion)
+INSERT_UPDATE Concert;code[unique=true];$catalogVersion[unique=true];name[lang=en];baseProduct(code,$catalogVersion)
                      ;99999902;;Electric Castle;99999901
                      ;99999903;;Untold;99999901
+                     ;99999904;;Sunwave;99999901

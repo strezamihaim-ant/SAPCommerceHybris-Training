@@ -40,6 +40,8 @@ hybris/bin/**/resources/beans.xsd
 hybris/bin/**/hmc/resources/hmc.xsd
 hybris/bin/**/resources/*.build.number
 
+CLAUDE.md
+
 ## Global file pattern
 ~
 *.bak

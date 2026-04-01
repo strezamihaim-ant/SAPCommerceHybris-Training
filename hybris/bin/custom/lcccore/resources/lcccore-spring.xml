@@ -71,6 +71,10 @@
 	       <aop:pointcut id="profiledMethods" expression="execution(* *(..))" />	
 	  -->
 	
+    <bean id="concerttoursCustomSetup" class="com.lcc.core.setup.ConcerttoursCustomSetup">
+        <property name="importService" ref="importService"/>
+    </bean>
+
     <bean id="lcccoreSystemSetup" class="com.lcc.core.setup.LcccoreSystemSetup">
         <!-- constructor arg injection example -->
         <constructor-arg ref="lcccoreService"/>

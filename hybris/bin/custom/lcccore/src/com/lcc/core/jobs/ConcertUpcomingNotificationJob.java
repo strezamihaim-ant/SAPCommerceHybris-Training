@@ -25,7 +25,7 @@ public class ConcertUpcomingNotificationJob extends AbstractJobPerformable<CronJ
     @Override
     public PerformResult perform(CronJobModel cronJobModel) {
         CatalogVersionModel catalogVersionModel = catalogVersionService.getCatalogVersion("electronicsProductCatalog", "Online");
-        List<ConcertModel> concerts = (concertService.getConcertsByCatalogVersion(catalogVersionModel));
+        List<ConcertModel> concerts = concertService.getConcertsByCatalogVersion(catalogVersionModel);
 
         if (concerts == null || concerts.isEmpty()) {
             return new PerformResult(CronJobResult.SUCCESS, CronJobStatus.FINISHED);
