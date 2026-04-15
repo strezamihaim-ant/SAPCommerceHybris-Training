@@ -308,6 +308,7 @@
 	
 	<!-- Little Concert Company custom extensions -->
     <extension name="lcccore" />
+    <extension name="lccfacades" />
     <extension name="lccbackoffice" />
   </extensions>
 </hybrisconfig>

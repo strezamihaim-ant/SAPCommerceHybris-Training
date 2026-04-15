@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="concertFacade" class="com.lcc.facades.concert.impl.DefaultConcertFacade">
+        <property name="concertService" ref="concertService"/>
+        <property name="catalogVersionService" ref="catalogVersionService"/>
+        <property name="concertConverter" ref="concertConverter"/>
+    </bean>
+
+    <bean id="concertConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="com.lcc.facades.concert.data.ConcertData"/>
+        <property name="populators">
+            <list>
+                <ref bean="concertPopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="concertPopulator" class="com.lcc.facades.concert.converters.populator.ConcertPopulator"/>
+
+    <bean id="tourConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="com.lcc.facades.tour.data.TourData"/>
+        <property name="populators">
+            <list>
+                <ref bean="tourPopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="tourPopulator" class="com.lcc.facades.tour.converters.populator.TourPopulator">
+        <property name="concertConverter" ref="concertConverter"/>
+    </bean>
+
+    <bean id="bandFacade" class="com.lcc.facades.band.impl.DefaultBandFacade">
+        <property name="bandService" ref="bandService"/>
+        <property name="bandConverter" ref="bandConverter"/>
+    </bean>
+
+    <bean id="bandConverter" parent="abstractPopulatingConverter">
+        <property name="targetClass" value="com.lcc.facades.band.data.BandData"/>
+        <property name="populators">
+            <list>
+                <ref bean="bandPopulator"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="bandPopulator" class="com.lcc.facades.band.converters.populator.BandPopulator"/>
+
+</beans>

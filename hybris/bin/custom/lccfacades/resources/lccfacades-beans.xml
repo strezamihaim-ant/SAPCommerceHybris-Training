@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved.
+-->
+<!--
+	ATTENTION: This is just an example file. You have to edit it according to your needs.
+-->
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="beans.xsd">
+	<bean class="com.lcc.facades.concert.data.ConcertData">
+		<property name="code" type="String"/>
+		<property name="venue" type="String"/>
+		<property name="date" type="java.util.Date"/>
+		<property name="concertType" type="com.lcc.core.enums.ConcertType"/>
+	</bean>
+
+	<bean class="com.lcc.facades.band.data.BandData">
+		<property name="code" type="String"/>
+		<property name="name" type="String"/>
+		<property name="history" type="String"/>
+		<property name="albumSales" type="String"/>
+		<property name="genres" type="java.util.List&lt;String&gt;"/>
+		<property name="tours" type="java.util.List&lt;com.lcc.facades.tour.data.TourData&gt;"/>
+	</bean>
+
+	<bean class="com.lcc.facades.tour.data.TourData">
+		<property name="code" type="String"/>
+		<property name="tourName" type="String"/>
+		<property name="numberOfConcerts" type="int"/>
+		<property name="concerts" type="java.util.List&lt;com.lcc.facades.concert.data.ConcertData&gt;"/>
+	</bean>
+</beans>

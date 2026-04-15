@@ -105,6 +105,14 @@
         <property name="concertDao" ref="concertDao"/>
     </bean>
 
+    <bean id="bandDao" class="com.lcc.core.dao.impl.DefaultBandDao">
+        <property name="flexibleSearchService" ref="flexibleSearchService"/>
+    </bean>
+
+    <bean id="bandService" class="com.lcc.core.service.impl.DefaultBandService">
+        <property name="bandDao" ref="bandDao"/>
+    </bean>
+
     <bean id="concertUpcomingNotificationJob" class="com.lcc.core.jobs.ConcertUpcomingNotificationJob" parent="abstractJobPerformable">
         <property name="concertService" ref="concertService"/>
         <property name="catalogVersionService" ref="catalogVersionService"/>
