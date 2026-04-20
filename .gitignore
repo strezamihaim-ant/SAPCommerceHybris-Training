@@ -27,7 +27,6 @@ hybris/bin/**/hmc/bin/
 hybris/bin/**/web/
 hybris/bin/**/classes/
 hybris/bin/**/web/testclasses/
-hybris/bin/**/testsrc/
 hybris/bin/**/gensrc/
 hybris/bin/**/jalo/
 hybris/bin/**/lib/
