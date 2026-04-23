@@ -85,6 +85,21 @@
 			</attributes>
 		</itemtype>
 
+		<itemtype code="BandListCMSComponent" autocreate="true" generate="true"
+				  extends="SimpleCMSComponent">
+			<attributes>
+				<attribute qualifier="title" type="java.lang.String">
+					<persistence type="property"/>
+					<modifiers optional="true"/>
+				</attribute>
+				<attribute qualifier="bandCodes" type="StringCollection">
+					<persistence type="property"/>
+					<modifiers optional="true"/>
+					<description>Band codes to display. If empty, all bands are shown.</description>
+				</attribute>
+			</attributes>
+		</itemtype>
+
 		<itemtype code="Product"
 				  autocreate="false"
 				  generate="false">
