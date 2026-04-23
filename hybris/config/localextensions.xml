@@ -310,5 +310,6 @@
     <extension name="lcccore" />
     <extension name="lccfacades" />
     <extension name="lccbackoffice" />
+    <extension name="lccstorefront" />
   </extensions>
 </hybrisconfig>
