@@ -1,0 +1,139 @@
+# CMS Content for Concert Tours Storefront
+# Creates a content catalog, page templates, slots, and a custom landing page
+# -----------------------------------------------------------------------
+
+$contentCatalog=concertoursContentCatalog
+$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Online])[default=$contentCatalog:Online]
+
+# Import modulegen config properties into impex macros
+UPDATE GenericItem[processor=de.hybris.platform.commerceservices.impex.impl.ConfigPropertyImportProcessor];pk[unique=true]
+$jarResourceCms=$config-jarResourceCmsValue
+
+# -----------------------------------------------------------------------
+# BaseStore
+# -----------------------------------------------------------------------
+INSERT_UPDATE BaseStore;uid[unique=true];name[lang=en];currencies(isoCode);net;defaultCurrency(isoCode);languages(isoCode);defaultLanguage(isoCode);catalogs(id)
+                       ;concerttoursStore;Concert Tours Store;USD;false;USD;en;en;concertoursProductCatalog
+
+# -----------------------------------------------------------------------
+# CMSSite
+# -----------------------------------------------------------------------
+INSERT_UPDATE CMSSite;uid[unique=true];stores(uid);contentCatalogs(id);defaultPreviewCatalog(id);urlPatterns;channel(code);theme(code);active
+                     ;concerttourssite;concerttoursStore;concertoursContentCatalog;concertoursContentCatalog;(?i)^https?://[^/]+(/[^?]*)?(\\?.*)?$;B2C;alpha;true
+
+# -----------------------------------------------------------------------
+# Content Catalog
+# -----------------------------------------------------------------------
+INSERT_UPDATE ContentCatalog;id[unique=true]
+                            ;$contentCatalog
+
+INSERT_UPDATE CatalogVersion;catalog(id)[unique=true];version[unique=true];active;languages(isoCode)
+                            ;$contentCatalog;Staged;false;en
+                            ;$contentCatalog;Online;true;en
+
+# -----------------------------------------------------------------------
+# Page Templates
+# -----------------------------------------------------------------------
+INSERT_UPDATE PageTemplate;$contentCV[unique=true];uid[unique=true];name;frontendTemplateName;restrictedPageTypes(code);active[default=true]
+                          ;;LandingPage2Template;Landing Page 2 Template;layout/landingLayout2Page;CategoryPage,ContentPage
+
+# Velocity template for CMS Cockpit structure view
+UPDATE PageTemplate;$contentCV[unique=true];uid[unique=true];velocityTemplate[translator=de.hybris.platform.commerceservices.impex.impl.FileLoaderValueTranslator]
+                   ;;LandingPage2Template;$jarResourceCms/structure-view/structure_landingPage2Template.vm
+
+# -----------------------------------------------------------------------
+# Content Slot Names (defines available positions in LandingPage2Template)
+# -----------------------------------------------------------------------
+INSERT_UPDATE ContentSlotName;name[unique=true];template(uid,$contentCV)[unique=true][default='LandingPage2Template'];validComponentTypes(code);compTypeGroup(code)
+                             ;SiteLogo;;;logo
+                             ;HeaderLinks;;;headerlinks
+                             ;SearchBox;;;searchbox
+                             ;MiniCart;;;minicart
+                             ;NavigationBar;;;navigation
+                             ;Section1;;;wide
+                             ;Section2A;;;narrow
+                             ;Section2B;;;narrow
+                             ;Section2C;;;wide
+                             ;Section3;;;wide
+                             ;Section4;;;narrow
+                             ;Section5;;;wide
+                             ;Footer;;;footer
+                             ;TopHeaderSlot;;;wide
+                             ;BottomHeaderSlot;;;wide
+                             ;PlaceholderContentSlot;;;
+
+# -----------------------------------------------------------------------
+# Shared Content Slots
+# -----------------------------------------------------------------------
+INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];name;active
+                         ;;SiteLogoSlot;Default Site Logo Slot;true
+                         ;;MiniCartSlot;Mini Cart;true
+                         ;;NavigationBarSlot;Navigation Bar;true
+                         ;;FooterSlot;Footer;true
+                         ;;HeaderLinksSlot;Header Links;true
+                         ;;SearchBoxSlot;Search Box;true
+                         ;;TopHeaderSlot;Top Header;true
+                         ;;BottomHeaderSlot;Bottom Header;true
+                         ;;PlaceholderContentSlot;Placeholder for Addon tag files;true
+
+# Page-specific slots for Concert Tours Landing Page
+INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];name;active
+                         ;;ConcertToursSection1Slot;Concert Tours - Section 1 (Hero);true
+                         ;;ConcertToursSection2ASlot;Concert Tours - Section 2A;true
+                         ;;ConcertToursSection2BSlot;Concert Tours - Section 2B;true
+                         ;;ConcertToursSection2CSlot;Concert Tours - Section 2C;true
+                         ;;ConcertToursSection3Slot;Concert Tours - Section 3 (Band List);true
+
+# -----------------------------------------------------------------------
+# Bind shared slots to LandingPage2Template positions
+# -----------------------------------------------------------------------
+INSERT_UPDATE ContentSlotForTemplate;$contentCV[unique=true];uid[unique=true];position[unique=true];pageTemplate(uid,$contentCV)[unique=true][default='LandingPage2Template'];contentSlot(uid,$contentCV)[unique=true];allowOverwrite
+                                    ;;SiteLogo-ConcertToursLanding2;SiteLogo;;SiteLogoSlot;true
+                                    ;;MiniCart-ConcertToursLanding2;MiniCart;;MiniCartSlot;true
+                                    ;;NavigationBar-ConcertToursLanding2;NavigationBar;;NavigationBarSlot;true
+                                    ;;Footer-ConcertToursLanding2;Footer;;FooterSlot;true
+                                    ;;HeaderLinks-ConcertToursLanding2;HeaderLinks;;HeaderLinksSlot;true
+                                    ;;SearchBox-ConcertToursLanding2;SearchBox;;SearchBoxSlot;true
+                                    ;;TopHeaderSlot-ConcertToursLanding2;TopHeaderSlot;;TopHeaderSlot;true
+                                    ;;BottomHeaderSlot-ConcertToursLanding2;BottomHeaderSlot;;BottomHeaderSlot;true
+                                    ;;PlaceholderContentSlot-ConcertToursLanding2;PlaceholderContentSlot;;PlaceholderContentSlot;true
+
+# -----------------------------------------------------------------------
+# Custom CMS Paragraph Components
+# -----------------------------------------------------------------------
+INSERT_UPDATE CMSParagraphComponent;$contentCV[unique=true];uid[unique=true];name;content[lang=en]
+                                   ;;ConcertToursHeroParagraph;Concert Tours Hero Text;"<h1>Welcome to Concert Tours</h1><p>Discover upcoming concerts and tours from your favourite bands. Book tickets now!</p>"
+                                   ;;ConcertToursSection2AParagraph;Concert Tours Section2A Text;"<h2><a href=""/lccstorefront/bands"">Top Bands</a></h2><p>Explore concerts from the world's greatest bands.</p>"
+                                   ;;ConcertToursSection2BParagraph;Concert Tours Section2B Text;"<h2><a href=""/lccstorefront/concerts"">Upcoming Shows</a></h2><p>Don't miss these upcoming live events near you.</p>"
+
+# -----------------------------------------------------------------------
+# Band List CMS Component
+# -----------------------------------------------------------------------
+INSERT_UPDATE BandListCMSComponent;$contentCV[unique=true];uid[unique=true];name;title
+                                  ;;BandListComponent;Band List Component;Our Bands
+
+# -----------------------------------------------------------------------
+# Concert Tours Landing Page (ContentPage using LandingPage2Template)
+# -----------------------------------------------------------------------
+INSERT_UPDATE ContentPage;$contentCV[unique=true];uid[unique=true];name;masterTemplate(uid,$contentCV);label;defaultPage[default='true'];approvalStatus(code)[default='approved'];homepage[default='true']
+                         ;;concertToursHomepage;Concert Tours Homepage;LandingPage2Template;/concertTours
+
+# -----------------------------------------------------------------------
+# Bind page-specific content slots to the Concert Tours Landing Page
+# -----------------------------------------------------------------------
+INSERT_UPDATE ContentSlotForPage;$contentCV[unique=true];uid[unique=true];position[unique=true];page(uid,$contentCV)[unique=true][default='concertToursHomepage'];contentSlot(uid,$contentCV)[unique=true]
+                                ;;Section1-ConcertToursHomepage;Section1;;ConcertToursSection1Slot
+                                ;;Section2A-ConcertToursHomepage;Section2A;;ConcertToursSection2ASlot
+                                ;;Section2B-ConcertToursHomepage;Section2B;;ConcertToursSection2BSlot
+                                ;;Section2C-ConcertToursHomepage;Section2C;;ConcertToursSection2CSlot
+                                ;;Section3-ConcertToursHomepage;Section3;;ConcertToursSection3Slot
+
+# -----------------------------------------------------------------------
+# Add components to the page-specific slots
+# -----------------------------------------------------------------------
+INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];cmsComponents(uid,$contentCV)
+                         ;;ConcertToursSection1Slot;ConcertToursHeroParagraph
+                         ;;ConcertToursSection2ASlot;ConcertToursSection2AParagraph
+                         ;;ConcertToursSection2BSlot;ConcertToursSection2BParagraph
+                         ;;ConcertToursSection2CSlot;
+                         ;;ConcertToursSection3Slot;BandListComponent
