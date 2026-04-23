@@ -11,6 +11,9 @@
                         
         
         <requires-extension name="yacceleratorfacades"/>
+
+
+        <requires-extension name="lccfacades"/>
                         
         
         <webmodule jspcompile="false" webroot="/lccstorefront"/>
