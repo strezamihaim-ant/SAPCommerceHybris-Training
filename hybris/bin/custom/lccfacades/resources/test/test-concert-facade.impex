@@ -1,0 +1,16 @@
+# Test data for DefaultConcertFacadeIntegrationTest
+
+INSERT_UPDATE Catalog;id[unique=true]
+                     ;concertoursProductCatalog
+
+INSERT_UPDATE CatalogVersion;catalog(id)[unique=true];version[unique=true];active
+                            ;concertoursProductCatalog;Online;true
+
+INSERT_UPDATE Unit;unitType[unique=true];code[unique=true];conversion;name[lang=en]
+                  ;pieces;pieces;1;Pieces
+
+INSERT_UPDATE Product;code[unique=true];variantType(code);unit(code);catalogVersion(catalog(id),version)
+                     ;testTour;Concert;pieces;concertoursProductCatalog:Online
+
+INSERT_UPDATE Concert;code[unique=true];venue;date[dateformat=dd.MM.yyyy];concertType(code);baseProduct(code,catalogVersion(catalog(id),version));catalogVersion(catalog(id),version)
+                     ;testConcert001;Test Venue;01.06.2027;INDOOR;testTour:concertoursProductCatalog:Online;concertoursProductCatalog:Online

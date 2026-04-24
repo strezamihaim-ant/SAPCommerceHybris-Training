@@ -1,0 +1,4 @@
+# Test data for DefaultBandFacadeIntegrationTest
+
+INSERT_UPDATE Band;code[unique=true];name;albumSales;history
+                  ;testBand001;Test Band;500000;A test band for integration testing
