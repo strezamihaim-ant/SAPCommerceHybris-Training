@@ -6,7 +6,7 @@ import com.lcc.facades.band.BandFacade;
 import com.lcc.facades.band.data.BandData;
 import de.hybris.bootstrap.annotations.IntegrationTest;
 import de.hybris.platform.impex.jalo.ImpExException;
-import de.hybris.platform.servicelayer.ServicelayerTest;
+import de.hybris.platform.servicelayer.ServicelayerTransactionalTest;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @IntegrationTest
-public class DefaultBandFacadeIntegrationTest extends ServicelayerTest {
+public class DefaultBandFacadeIntegrationTest extends ServicelayerTransactionalTest {
 
     private static final String BAND_CODE = "testBand001";
     private static final String BAND_NAME = "Test Band";
@@ -24,7 +24,7 @@ public class DefaultBandFacadeIntegrationTest extends ServicelayerTest {
 
     @Before
     public void setUp() throws ImpExException {
-        importCsv("/com/lcc/facades/band/impl/test-band-facade.impex", "UTF-8");
+        importCsv("/test/test-band-facade.impex", "UTF-8");
     }
 
     @Test

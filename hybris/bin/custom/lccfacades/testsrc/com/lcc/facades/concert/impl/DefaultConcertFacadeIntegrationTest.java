@@ -6,7 +6,7 @@ import com.lcc.facades.concert.ConcertFacade;
 import com.lcc.facades.concert.data.ConcertData;
 import de.hybris.bootstrap.annotations.IntegrationTest;
 import de.hybris.platform.impex.jalo.ImpExException;
-import de.hybris.platform.servicelayer.ServicelayerTest;
+import de.hybris.platform.servicelayer.ServicelayerTransactionalTest;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @IntegrationTest
-public class DefaultConcertFacadeIntegrationTest extends ServicelayerTest {
+public class DefaultConcertFacadeIntegrationTest extends ServicelayerTransactionalTest {
 
     private static final String CONCERT_CODE = "testConcert001";
     private static final String CONCERT_VENUE = "Test Venue";
@@ -24,7 +24,7 @@ public class DefaultConcertFacadeIntegrationTest extends ServicelayerTest {
 
     @Before
     public void setUp() throws ImpExException {
-        importCsv("/com/lcc/facades/concert/impl/test-concert-facade.impex", "UTF-8");
+        importCsv("/test/test-concert-facade.impex", "UTF-8");
     }
 
     @Test

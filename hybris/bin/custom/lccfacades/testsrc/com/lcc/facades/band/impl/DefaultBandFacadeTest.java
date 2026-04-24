@@ -6,6 +6,7 @@ import static org.mockito.Mockito.when;
 import com.lcc.core.model.BandModel;
 import com.lcc.core.service.BandService;
 import com.lcc.facades.band.data.BandData;
+import de.hybris.bootstrap.annotations.UnitTest;
 import de.hybris.platform.servicelayer.dto.converter.Converter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,6 +17,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import java.util.Collections;
 import java.util.List;
 
+@UnitTest
 @RunWith(MockitoJUnitRunner.class)
 public class DefaultBandFacadeTest {
 

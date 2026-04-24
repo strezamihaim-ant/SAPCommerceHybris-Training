@@ -6,6 +6,7 @@ import static org.mockito.Mockito.when;
 import com.lcc.core.model.ConcertModel;
 import com.lcc.core.service.ConcertService;
 import com.lcc.facades.concert.data.ConcertData;
+import de.hybris.bootstrap.annotations.UnitTest;
 import de.hybris.platform.catalog.CatalogVersionService;
 import de.hybris.platform.catalog.model.CatalogVersionModel;
 import de.hybris.platform.servicelayer.dto.converter.Converter;
@@ -19,6 +20,8 @@ import org.mockito.junit.MockitoJUnitRunner;
 import java.util.Collections;
 import java.util.List;
 
+
+@UnitTest
 @RunWith(MockitoJUnitRunner.class)
 public class DefaultConcertFacadeTest {
 
