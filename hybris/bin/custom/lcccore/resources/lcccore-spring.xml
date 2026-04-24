@@ -113,6 +113,13 @@
         <property name="bandDao" ref="bandDao"/>
     </bean>
 
+    <bean id="productBandNameValueProvider"
+          class="com.lcc.core.solr.provider.impl.ProductBandNameValueProvider"
+          parent="abstractPropertyFieldValueProvider">
+        <property name="fieldNameProvider" ref="solrFieldNameProvider"/>
+        <property name="modelService" ref="modelService"/>
+    </bean>
+
     <bean id="concertUpcomingNotificationJob" class="com.lcc.core.jobs.ConcertUpcomingNotificationJob" parent="abstractJobPerformable">
         <property name="concertService" ref="concertService"/>
         <property name="catalogVersionService" ref="catalogVersionService"/>
