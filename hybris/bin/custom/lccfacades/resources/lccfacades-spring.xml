@@ -56,4 +56,9 @@
 
     <bean id="bandPopulator" class="com.lcc.facades.band.converters.populator.BandPopulator"/>
 
+    <alias name="lccSearchResultConcertPopulator" alias="commerceSearchResultProductPopulator"/>
+    <bean id="lccSearchResultConcertPopulator"
+          class="com.lcc.facades.solr.populator.SearchResultConcertPopulator"
+          parent="variantCommerceSearchResultProductPopulator"/>
+
 </beans>

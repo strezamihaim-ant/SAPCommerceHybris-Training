@@ -76,3 +76,4 @@ build.xml
 hybrisCodeGeneration.launch
 hybris4intellij.properties
 .idea/
+.claude/
