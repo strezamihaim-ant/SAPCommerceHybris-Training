@@ -17,6 +17,7 @@
       
         
         <requires-extension name="cms2"/>
+        <requires-extension name="solrfacetsearch"/>
                          
       
 
