@@ -100,6 +100,21 @@
 			</attributes>
 		</itemtype>
 
+		<itemtype code="News" autocreate="true" generate="true" extends="GenericItem">
+			<deployment table="News" typecode="10201"/>
+			<attributes>
+				<attribute qualifier="date" type="java.util.Date">
+					<persistence type="property"/>
+				</attribute>
+				<attribute qualifier="headline" type="localized:java.lang.String">
+					<persistence type="property"/>
+				</attribute>
+				<attribute qualifier="content" type="localized:java.lang.String">
+					<persistence type="property"/>
+				</attribute>
+			</attributes>
+		</itemtype>
+
 		<itemtype code="Product"
 				  autocreate="false"
 				  generate="false">

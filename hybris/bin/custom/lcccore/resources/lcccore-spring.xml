@@ -125,5 +125,15 @@
         <property name="catalogVersionService" ref="catalogVersionService"/>
         <property name="i18NService" ref="i18NService"/>
     </bean>
-			
+
+    <bean id="bandCreatedEventListener" class="com.lcc.core.event.BandCreatedEventListener"
+          parent="abstractEventListener">
+        <property name="modelService" ref="modelService"/>
+    </bean>
+
+    <bean id="bandAlbumSalesEventListener" class="com.lcc.core.event.BandAlbumSalesEventListener"
+          parent="abstractEventListener">
+        <property name="modelService" ref="modelService"/>
+    </bean>
+
 </beans>
