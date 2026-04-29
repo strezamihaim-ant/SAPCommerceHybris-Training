@@ -30,12 +30,12 @@
 			</targetElement>
 		</relation>
 
-		<!-- One-to-many relationship between Band and Product -->
+		<!-- One-to-many relationship between Band and Concert -->
 		<relation code="Band2ProductRelation" generate="true" autocreate="true" localized="false">
 			<sourceElement type="Band" qualifier="band" cardinality="one">
 				<modifiers read="true" write="true" search="true" optional="true"/>
 			</sourceElement>
-			<targetElement type="Product" qualifier="products" cardinality="many">
+			<targetElement type="Concert" qualifier="concerts" cardinality="many">
 				<modifiers read="true" write="true" search="true" optional="true"/>
 			</targetElement>
 		</relation>
